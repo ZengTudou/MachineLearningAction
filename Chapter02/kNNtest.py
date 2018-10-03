@@ -10,4 +10,6 @@ datingDataMat, datingLabels = kNN.file2matrix('datingTestSet2.txt')
 # print(datingDataMat[5, :])
 # print(datingLabels[5])
 normMat, ranges, minVals = kNN.autoNorm(datingDataMat)
+kNN.datingClassTest()
+
 
